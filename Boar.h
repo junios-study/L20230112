@@ -7,7 +7,7 @@ class Boar :public Character
 {
 public:
 	Boar();
-	~Boar();
+	virtual ~Boar();
 
 	void Move();
 };

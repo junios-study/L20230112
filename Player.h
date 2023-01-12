@@ -5,10 +5,10 @@ class Player : public Character
 {
 public:
 	Player();
-	~Player();
+	virtual ~Player();
 
 	int MP;
 
-	void Move();
+	virtual void Move() override;
 };
 

@@ -6,7 +6,7 @@ class Goblin : public Character
 {
 public:
 	Goblin();
-	~Goblin();
+	virtual ~Goblin();
 
 	void Move();
 };

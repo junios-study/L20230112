@@ -5,7 +5,7 @@ using namespace std;
 
 Character::Character()
 {
-	cout << "캐릭터 생성." << endl;
+	cout << "캐릭터 Construct." << endl;
 }
 
 Character::~Character()

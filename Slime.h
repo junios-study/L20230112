@@ -5,7 +5,7 @@ class Slime : public Character
 {
 public:
 	Slime();
-	~Slime();
+	virtual ~Slime();
 
 	void Move();
 };
